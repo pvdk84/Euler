@@ -6,46 +6,49 @@ Euler problem 1: If we list all the natural numbers below 10 that are multiples 
 
 import java.util.*;
 
-class Problem1Multiples
-{
+class Problem1Multiples {
 	
-    	public static void main(String[] args) {
+	
+	public static void main(String[] args) {
 
         	System.out.println(solutionToEuler1());
-    	} 
+	} 
 
-	static int solutionToEuler1() 
-    	{
+	
+	static int solutionToEuler1() {
+		
 		int number1 = 3;
 		int number2 = 5;
 		int limit = 1000;
 	
 		return sum(findMultiples(number1, number2, limit));
-    	}
+    	
+	}
 	
-	static int sum(ArrayList<Integer> in)
-	{
+	
+	static int sum(ArrayList<Integer> in) {
+		
 		int sum = 0;
 
-		for (int i : in)
-		{
+		for (int i : in) {
 			sum += i;
 		}
+		
 		return sum;		
 	}
 
-	static ArrayList<Integer> findMultiples(int number1, int number2, int limit)
-	{
+	
+	static ArrayList<Integer> findMultiples(int number1, int number2, int limit) {
+		
 		ArrayList<Integer> multiples = new ArrayList<Integer>();
 
-		for (int i = 0; i < limit; i++) 
-		{
+		for (int i = 0; i < limit; i++) {
 
-			if ((i % number1 == 0) || (i % number2 == 0)) 
-			{
-                	multiples.add(i);
-            		}
-        	}
-        	return multiples;				
+			if ((i % number1 == 0) || (i % number2 == 0)) {
+                multiples.add(i);
+            }
+        }
+		
+        return multiples;				
 	}
 }
