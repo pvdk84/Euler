@@ -1,7 +1,8 @@
-package euler;
+package pvdk84.euler;
 
 /*
-Euler problem 3: What is the largest prime factor of the number 600851475143?
+Euler problem 3: 
+What is the largest prime factor of the number 600851475143?
 */
 
 import java.util.*;
@@ -26,12 +27,11 @@ public class Problem3PrimeFactors {
 	}
 	
 	
-    static ArrayList<Long> findPrimeFactors(long number) {
+    	static ArrayList<Long> findPrimeFactors(long number) {
 		
 		if (number < 4) {
-			throw new IllegalArgumentException(String.format(
-				"\nNo prime factors for %s", number));
-        }
+			throw new IllegalArgumentException(String.format("No prime factors for %s", number));
+        	}
 
 		ArrayList<Long> primeFactors = new ArrayList<>();
 		
@@ -41,8 +41,8 @@ public class Problem3PrimeFactors {
 			number = number / factor;			
 		}
 
-        return primeFactors;
-    }
+        	return primeFactors;
+    	}
 	
 	
 	static long findSmallestFactor(long number) {

@@ -1,7 +1,10 @@
-package euler;
+package pvdk84.euler;
 
 /*
-Euler problem 1: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+Euler problem 1: 
+If we list all the natural numbers below 10 that are multiples of 3 or 5, 
+we get 3, 5, 6 and 9. The sum of these multiples is 23. 
+Find the sum of all the multiples of 3 or 5 below 1000.
 */
 
 import java.util.*;
@@ -45,10 +48,10 @@ class Problem1Multiples {
 		for (int i = 0; i < limit; i++) {
 
 			if ((i % number1 == 0) || (i % number2 == 0)) {
-                multiples.add(i);
-            }
-        }
+                		multiples.add(i);
+            		}
+        	}
 		
-        return multiples;				
+        	return multiples;				
 	}
 }
