@@ -1,8 +1,8 @@
 package pvdk84.euler;
 
 /*
-What is the smallest positive number that is evenly 
-divisible by all of the numbers from 1 to 20?
+* What is the smallest positive number that is evenly 
+* divisible by all of the numbers from 1 to 20?
 */
 
 public class Problem5Divisors {
@@ -43,6 +43,7 @@ public class Problem5Divisors {
 				return result;
 			}
 		}
+
 		return result;
 	}		
 }

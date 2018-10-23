@@ -1,9 +1,9 @@
 package pvdk84.euler;
 
 /*
-Euler problem 2: 
-By considering the terms in the Fibonacci sequence whose values do not 
-exceed four million, find the sum of the even-valued terms.
+* Euler problem 2: 
+* By considering the terms in the Fibonacci sequence whose values do not 
+* exceed four million, find the sum of the even-valued terms.
 */
 
 public class Problem2Fibonacci {
@@ -31,13 +31,13 @@ public class Problem2Fibonacci {
         	while (b <= limit) {
 			
             		if (b % 2 == 0) {	
-                	sum += b;
+                		sum += b;
             		}
 			
-            	b = a + b;
-            	a = b - a;
+            		b = a + b;
+            		a = b - a;
         	}
 		
-        return sum;
+        	return sum;
     	}
 }

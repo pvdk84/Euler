@@ -1,8 +1,8 @@
 package pvdk84.euler;
 
 /*
-Euler problem 3: 
-What is the largest prime factor of the number 600851475143?
+* Euler problem 3: 
+* What is the largest prime factor of the number 600851475143?
 */
 
 import java.util.*;
