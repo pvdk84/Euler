@@ -2,7 +2,7 @@ package pvdk84.euler;
 
 import java.util.ArrayList;
 
-/**
+/*
  * Euler problem 7:
  * What is the 10001st prime?
  */
