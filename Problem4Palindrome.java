@@ -1,10 +1,10 @@
 package pvdk84.euler;
 
 /*
-* Euler problem 4: 
-* Find the largest palindrome made from 
-* the product of two 3-digit numbers.
-*/
+ * Euler problem 4: 
+ * Find the largest palindrome made from 
+ * the product of two 3-digit numbers.
+ */
 
 public class Problem4Palindrome {
 
